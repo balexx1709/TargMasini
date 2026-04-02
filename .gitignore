@@ -1,0 +1,17 @@
+# Build results
+bin/
+obj/
+out/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Fișiere generate la runtime
+tranzactii.txt
+masini.txt
+
+# OS
+.DS_Store
+Thumbs.db
