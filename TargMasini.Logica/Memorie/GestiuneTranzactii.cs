@@ -8,7 +8,7 @@ namespace TargMasini.Logica.Memorie;
 /// Echivalent cu "AdministratorEntitateMemorie" din modelul laborator.
 /// Toate metodele de căutare/filtrare utilizează LINQ (cerință temă).
 /// </summary>
-public class GestiuneTranzactii
+public class GestiuneTranzactii : IGestiuneEntitate<TranzactieAuto>
 {
     private readonly List<TranzactieAuto> _tranzactii = new();
     private int _nextId = 1;

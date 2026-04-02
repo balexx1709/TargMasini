@@ -7,7 +7,7 @@ namespace TargMasini.Logica.Memorie;
 /// Administrator în memorie pentru a doua entitate: Auto.
 /// Cerință temă 7: implementare facilități pentru a doua entitate.
 /// </summary>
-public class GestiuneAuto
+public class GestiuneAuto : IGestiuneEntitate<Auto>
 {
     private readonly List<Auto> _masini = new();
     private int _nextId = 1;
